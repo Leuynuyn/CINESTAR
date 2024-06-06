@@ -1,0 +1,124 @@
+:root {
+    --text-color:rgba(248, 250, 252, 1);
+}
+
+* {
+    background-color: rgb(89, 135, 181);
+}
+
+/* text-font{
+    line-height: 62px;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    margin: 0px 0px 12px;
+    font-weight: 400;
+    font-stretch: 100%;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(248, 250, 252);
+    text-align: center;
+    font-size: 40px;
+} */
+.main-header{
+    height: auto;
+    width: auto;
+    height: 500px;
+}
+
+.bg{
+    background-image: url(https://cinestar-api.monamedia.net/pub/template/assets/images/ht-qc-br.jpg);
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.bg .text{
+    color:#ffffff;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ---------------------------------------------
+-------------Su-menh------------------------- */
+#su-menh{
+    margin-top: 100px;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.SM-title{
+    color: rgba(248, 250, 252, 1);
+    line-height: 62px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-stretch: 100%;
+    text-transform: uppercase;
+    text-decoration: none solid rgb(248, 250, 252);
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: -4px;
+}
+
+.SM-item{
+    height: 150px;
+    background-color: rgb(106, 103, 98);
+    
+}
+
+.SM-item-1,.SM-item-2,.SM-item-3{
+    background-color: RGBA(51, 102, 204, 0.8);
+    color:rgba(248, 250, 252, 1);
+    margin:0 1.6%;
+    width: 30%;
+    height: 100%;
+    line-height: 25px;
+}
+
+.SM-item-numb{
+    color: rgba(243, 234, 40, 1);
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+
+/* ----------------------------------------------- */
+/* ----------------CARD--------------------------- */
+
+.Full-CardCS{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Card img{
+    width: 100%;
+}
+
+.Card-1,.Card-2,.Card-3,.Card-4,.Card-5,.Card-6,.Card-7,.Card-8{
+    width: 90%;
+    height: 90%;
+    line-height: 25px;
+    background-color: antiquewhite;
+}
+
+.First-row,.Second-row,.Third-row{
+}
+
+.Card h3{
+    line-height: 60px;
+}
+
