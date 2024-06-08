@@ -281,6 +281,9 @@ button.left-water::after {
     top: 10px;
     text-decoration: none;
   }
+  .rap{
+    height: 40px;
+  }
   .rap-lich .address li a:hover{
     color: #e7df51;
   }
